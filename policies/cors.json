@@ -1,0 +1,8 @@
+[
+  {
+    "origin": ["https://noorjyoti.replit.app", "https://noorjyoti.com"],
+    "method": ["GET", "HEAD"],
+    "responseHeader": ["Content-Type", "Content-Length", "Accept-Ranges"],
+    "maxAgeSeconds": 3600
+  }
+]
