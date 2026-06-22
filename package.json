@@ -1,0 +1,16 @@
+{
+  "name": "gcs-media-storage",
+  "version": "1.0.0",
+  "description": "GCS bucket config and tooling for TabulaMedica projects",
+  "scripts": {
+    "upload": "node scripts/upload-audio.js",
+    "signed-url": "node scripts/signed-url.js",
+    "deploy": "cd infra && terraform apply -auto-approve"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.0.0"
+  },
+  "devDependencies": {
+    "terraform": "^1.7.0"
+  }
+}
